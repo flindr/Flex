@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    /* centrerar innehåll i block-element */
+    text-align: center;
+    /* tar upp 80% av dess parent. margin auto kommer då centrera */
+    width: 80%;
+    margin: auto;
+}
+
+.sub-container {
+    /* tar upp så mycket plats den kan och ändrar storlek mer browser-fönstret*/
+    width: 100%;
+}
+
+.header {
+    background-color: yellow;
+    height: 70px;
+}
+
+.header a {
+    font-size: 30px;
+}
+

@@ -1,0 +1,148 @@
+/* latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/quicksand/v21/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000;
+    margin: 0;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.65em 0 0.5em;
+    line-height: 1.428;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    letter-spacing: 0.5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: yellow;
+    height: 70px;
+    width: 100%;
+}
+
+.header img {
+    z-index: 1;
+}
+
+.header a {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.main-content {
+    /* centrerar innehåll i block-element */
+    text-align: center;
+    /* tar upp 80% av dess parent. margin auto kommer då centrera */
+    width: 80%;
+    margin: auto;
+}
+
+.main-row {
+    /* tar upp så mycket plats den kan och ändrar storlek mer browser-fönstret*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.splash-image {
+    width: 100%;
+}
+
+.main-row img {
+    padding: 0 15px;
+}
+
+.main-row h5 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: black;
+    padding: 0 15px;
+}
+
+.awards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.award {
+    width: 25%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: black !important;    
+}
+
+.footer * {
+    margin-bottom: 10px;
+}
+
+.horizontal-separator {
+    background-image: url(spritesheet.png);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    width: 100%;
+    height: 18px !important;
+    margin: 40px 0;
+}
+
+.horizontal-separator-magenta {
+    background-image: url(spritesheet.png);
+    background-repeat: repeat-x;
+    background-position: 0 -18px;
+    width: 100%;
+    height: 18px !important;
+    margin: 40px 0;
+}
+
+.vertical-separator {
+    background-image: url(linea_vertical.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    height: 800px !important;
+    width: 18px;
+    margin: 0 10px;
+}
+
+
+.w-30 {
+    width: 30%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
