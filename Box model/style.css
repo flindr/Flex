@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;   
+}
+
+div  {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: green;
+}
+
+div > div {   
+    padding: 10px;
+    margin: 10px;
+    background-color: #8cb6c0;
+}
+
+.container {
+    width: 80%; 
+    height: 600px;
+}
+
+.item1 { 
+    width: 100px; 
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item2 { 
+    width: 50%; 
+    height: 30%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.avocado {
+    padding: 10px;
+    margin: 10px;
+}

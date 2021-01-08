@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Flexbox-properties att lägga på minnet!
+    
+    Alla dessa sätts på CONTAINER
+    Element i CONTAINER kallas ITEMS
+    
+    display: flex
+    Måste användas för att de andra CSS properties ska fungera
+    
+    flex-direction: row | column
+    Bestämmer ifall items ska placeras radvis eller kolumnvis
+    row är DEFAULT
+    
+    centrera / fördela både vertikalt och horizontelt
+    justify-content / align-items
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+
+
+    Om många items används och vi vill att de ska hoppa till nästa rad ifall de inte får plats
+    flex-wrap: wrap -->
+
+
+
+    <h1>display: flex</h1>
+    <h1>justify-content: center</h1>
+
+    <div class="flex-container1">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>display: flex</h1>
+    <h1>justify-content: space-evenly</h1>
+
+    <div class="flex-container2">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>display: flex</h1>
+    <h1>flex-direction: column</h1>
+
+    <div class="flex-container3">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>display: flex</h1>
+    <h1>flex-direction: column</h1>
+    <h1>align-items: center</h1>
+    <h1>justify-content: space-evenly</h1>
+    <h1>height: 500px</h1>
+
+    <div class="flex-container4">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>display: flex</h1>
+    <h1>justify-content: center</h1>
+    <h1>flex: wrap</h1>
+
+    <div class="flex-container5">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+
+</body>
+
+</html>
